@@ -1,10 +1,10 @@
-nsstr
-=====
+nodefocusable
+=============
 **(c)[Bumblehead][0]**
 
 Detect if node is focusable. Find nearest focusable parent
 
-[0]: http://www.bumblehead.com                            "bumblehead"
+[0]: https://www.bumblehead.com                            "bumblehead"
 
 
 ``` javascript
