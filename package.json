@@ -1,14 +1,21 @@
 {
   "name": "nodefocusable",
   "main": "nodefocusable",
-  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    "import": "./nodefocusable.js"
+  },
+  "files": [
+    "./nodefocusable.js"
+  ],
+  "version": "0.0.2",
   "description": "detect if node is focusable. find nearest focusable parent",
   "author": "Chris <chris@bumblehead.com>",
   "license": "MIT",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iambumblehead/nodefocusable.git"
+    "url": "git+https://github.com/iambumblehead/nodefocusable.git"
   },
   "keywords": [
     "nodefocusable",
