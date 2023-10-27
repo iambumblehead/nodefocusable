@@ -10,11 +10,11 @@ Detect if node is focusable. Find nearest focusable parent
 ``` javascript
 nodefocusable.is(buttonelem); // true
 nodefocusable.is(spanelem); // false
-nodefocusable.getfocusableparent(spanelem); // linkelem
+nodefocusable(spanelem); // linkelem
 ```
 
 
-![scrounge](https://github.com/iambumblehead/scroungejs/raw/master/img/hand.png)
+![scrounge](https://github.com/iambumblehead/scroungejs/raw/main/img/hand.png)
 
 (The MIT License)
 
